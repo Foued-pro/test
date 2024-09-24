@@ -159,6 +159,28 @@ body {
 .top-artist li {
   font-size: 1.25rem;
 }
+@media (max-width: 768px) {
+  .nav__list {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align them */
+    row-gap: 1rem; /* Add some space between items */
+  }
+  
+  .nav__link {
+    font-size: 1.2rem; /* Adjust font size for readability on small screens */
+  }
+  
+  .nav__menu {
+    display: block; /* Ensure the menu is displayed properly on mobile */
+    width: 100%; /* Take up the full width */
+    text-align: center; /* Center-align the text */
+  }
+
+  .nav__item {
+    margin: 0.5rem 0; /* Add spacing between items */
+    width: 100%; /* Make sure each item takes full width */
+  }
+}
 
 .about-us-section {
   display: flex;
