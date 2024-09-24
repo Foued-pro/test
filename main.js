@@ -59,3 +59,16 @@ document.addEventListener('DOMContentLoaded', () => {
        });
    }
 });
+let isFooterExpanded = false;
+
+document.getElementById('footer-toggle').addEventListener('click', function() {
+    const footer = document.getElementById('footer');
+    
+    if (!isFooterExpanded) {
+        footer.classList.add('open');
+    } else {
+        footer.classList.remove('open');
+    }
+    
+    isFooterExpanded = !isFooterExpanded;
+});
