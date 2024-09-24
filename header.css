@@ -716,52 +716,94 @@
   }
   /*=======
   /* Footer styles */
-footer {
-  background-color: var(--body-color);
-  padding: 2rem 1rem;
-  text-align: center;
-}
-
-footer .support {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-footer .support ul {
-  list-style: none;
-  padding: 0;
-}
-
-footer .support li {
-  margin-bottom: 1rem;
-}
-
-footer .support a {
-  color: var(--text-color);
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-footer .support a:hover {
-  color: var(--first-color);
-}
-
-/* Responsive footer */
-@media screen and (min-width: 768px) {
-  footer .support {
-    flex-direction: row;
-    justify-content: space-between;
+.footer {
+      background-color: #f9f9f9;
+      padding: 2rem 1.5rem;
+      width: 100%;
+      border-top: 1px solid #e0e0e0;
   }
-
-  footer .support ul {
-    margin: 0 1rem;
+  
+  .footer-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
   }
-}
-
-footer {
-  font-size: 20px;
-}
-.support-titre{
-  font-size: 25px;
-}
+  
+  .footer-logo a {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #0056b3;
+      text-decoration: none;
+  }
+  
+  .footer-columns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+  }
+  
+  .footer-column {
+      min-width: 150px;
+  }
+  
+  .footer-column h3 {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      color: #333;
+  }
+  
+  .footer-column ul {
+      list-style: none;
+      padding: 0;
+  }
+  
+  .footer-column ul li {
+      margin-bottom: 0.5rem;
+  }
+  
+  .footer-column ul li a {
+      color: #666;
+      text-decoration: none;
+      font-size: 0.875rem;
+  }
+  
+  .footer-column ul li a:hover {
+      color: #0056b3;
+  }
+  
+  .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 1rem;
+      border-top: 1px solid #e0e0e0;
+      font-size: 0.875rem;
+      color: #666;
+  }
+  
+  .footer-social a {
+      margin-left: 1rem;
+      color: #666;
+      font-size: 1.5rem;
+      text-decoration: none;
+  }
+  
+  .footer-social a:hover {
+      color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+      .footer-container {
+          flex-direction: column;
+          align-items: center;
+      }
+  
+      .footer-bottom {
+          flex-direction: column;
+          text-align: center;
+          gap: 1rem;
+      }
+  }
+  
