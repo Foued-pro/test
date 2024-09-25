@@ -13,10 +13,9 @@ align-items: center;
 padding: 0 1rem;
 }
 
-```
+
 /*=============== SUPPORT  ===============*/
 
-```
 
 .support {
 background: rgba(251, 251, 251, 0.5);
@@ -27,7 +26,6 @@ padding: 15px;
 margin-top: 40px;
 }
 
-```
 .support ul {
   color: #000501;
   list-style-type: none;
@@ -77,7 +75,7 @@ margin-top: 40px;
   margin: 0 auto;
 }
 
-```
+
 
 .nav__list {
 display: flex;
@@ -117,7 +115,7 @@ backdrop-filter: blur(24px);
 z-index: var(--z-modal);
 }
 
-```
+
 .nav__menu.show-menu {
   display: flex;
 }
@@ -221,7 +219,7 @@ z-index: var(--z-modal);
   z-index: var(--z-fixed);
 }
 
-```
+
 
 .dropdown:hover .sous-menu {
 display: block;
@@ -244,7 +242,7 @@ background-color: var(--first-color);
 color: #fff;
 }
 
-```
+
 .nav__search,
 .nav__login,
 .nav__toggle,
@@ -271,7 +269,7 @@ color: #fff;
   transition: color .4s;
 }
 
-```
+
 
 /* Menu déroulant */
 .dropdown .sous-menu {
@@ -287,7 +285,7 @@ left: 0;
 z-index: var(--z-fixed);
 }
 
-```
+
 .dropdown:hover .sous-menu {
   display: block;
 }
@@ -579,7 +577,7 @@ z-index: var(--z-fixed);
 }
 /*=============== FIN ===============*/
 
-```
+
 
 /*=============== LOGIN & SEARCH ===============*/
 
@@ -625,7 +623,7 @@ background-color: var(--body-color);
 color: var(--text-color);
 position: relative;
 
-```
+
 }
 
 body::before {
@@ -661,7 +659,7 @@ img {
   height: auto;
 }
 
-```
+
 
 body,
 input,
@@ -674,7 +672,7 @@ button:hover{
 color: var(--first-color);
 }
 
-```
+
 /*=============== ANIMATION ===============*/
 
 /*=============== SUPPORT ===============*/
@@ -692,13 +690,12 @@ html {
   scroll-behavior: smooth;
 }
 
-```
+
 
 /*=============== GOOGLE FONTS ===============*/
 :root {
 --header-height: 3.5rem;
 
-```
 /*========== Colors ==========*/
 /*Color mode HSL(hue, saturation, lightness)*/
 --first-color: hsl(230, 75%, 56%);
@@ -723,7 +720,7 @@ html {
 --z-fixed: 100;
 --z-modal: 1000;
 
-```
+
 
 }
 
@@ -820,13 +817,13 @@ flex-direction: column;
 align-items: center;
 }
 
-```
-  .footer-bottom {
+
+.footer-bottom {
       flex-direction: column;
       text-align: center;
       gap: 1rem;
   }
 
-```
+
 
 }
